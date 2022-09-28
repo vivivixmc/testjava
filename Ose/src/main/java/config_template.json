@@ -1,0 +1,34 @@
+{
+  "User": {
+    "login":"",
+    "passwd":""
+  },
+  "Clusters": {
+    "Cluster1": {
+      "Name": "ClusterCA1",
+      "Url": "https://cluster.ca.ru",
+      "Api": "https://api.cluster.ca.ru",
+      "Zone": "internal",
+      "Token": "tokenVal"
+    },
+    "Cluster2": {
+      "Name": "ClusterBA2",
+      "Url": "https://cluster.ba.ru",
+      "Api": "https://api.cluster.ba.ru",
+      "Zone": "external",
+      "Token": "tokenVal"
+    }
+  },
+  "Database": {
+    "Admins": {
+      "AdmName1": {
+        "Namespaces": "NSA1,NSB1",
+        "Email": "AdmName1@mail.com"
+      },
+      "AdmName2": {
+        "Namespaces": "NSA2,NSB2",
+        "Email": "AdmName2@mail.com"
+      }
+    }
+  }
+}
