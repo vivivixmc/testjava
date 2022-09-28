@@ -1,3 +1,4 @@
+
 import resources.CCluster;
 import resources.CNamespace;
 import resources.CPod;
@@ -24,6 +25,8 @@ public class demo {
         PROMM.showAllNS();
         System.out.println(AA.showAllPods());
         PROMM.showAllPods();
+
+
 
     }
 }
