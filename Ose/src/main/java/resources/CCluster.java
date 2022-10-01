@@ -1,19 +1,26 @@
 package resources;
 
-import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 public class CCluster {
     public String Name;
     public String Uri;
+    public String Api;
     ArrayList<CNamespace> NS = new ArrayList<CNamespace>();
 
+    public String getApi() {
+        return Api;
+    }
 
-    public void NewCluster(String Name, String Url){
+    public void setApi(String api) {
+        this.Api = api;
+    }
+
+    public CCluster NewCluster(String Name, String Url, String Api){
         this.Name = Name;
         this.Uri = Url;
+        this.Api = Api;
+        return null;
     }
 
     public String getClusterName(){
