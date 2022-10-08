@@ -70,8 +70,6 @@ public class menu extends JFrame implements ActionListener {
 
         sidePanel.add(lits,BorderLayout.CENTER);
 
-        //tree.setSize(200,200);
-
     }
     private TreeModel createTreeModel()
     {
